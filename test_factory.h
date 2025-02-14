@@ -16,6 +16,8 @@
 #include <memory>
 #include "L225_MyStack/L225_MyStack.h"
 #include "L232_MyQueue/L232_MyQueue.h"
+#include "L239_maxSlidingWindow/L239_maxSlidingWindow.h"
+#include "L341_NestedIterator/L341_NestedIterator.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -24,6 +26,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         } else if (title == "L232") {
             std::shared_ptr<L232_MyQueue> tmp= std::make_shared<L232_MyQueue>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L239") {
+            std::shared_ptr<L239_maxSlidingWindow> tmp= std::make_shared<L239_maxSlidingWindow>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L341") {
+            std::shared_ptr<L341_NestedIterator> tmp= std::make_shared<L341_NestedIterator>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         }
     }
