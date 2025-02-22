@@ -13,3 +13,7 @@ LeetCode队列算法题的解题仓库
 [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/description/?envType=problem-list-v2&envId=queue) : [L239_MaxSlidingWindow](L239_MaxSlidingWindow)
 
 [341. 扁平化嵌套列表迭代器](https://leetcode.cn/problems/flatten-nested-list-iterator/description/?envType=problem-list-v2&envId=queue) : [L341_NestedIterator](L341_NestedIterator) : 注意，NestedInteger类没有给出构造，因此测试test没法实现
+
+[387. 字符串中的第一个唯一字符](https://leetcode.cn/problems/first-unique-character-in-a-string/description/?envType=problem-list-v2&envId=queue) : [L387_FirstUniqChar](L387_FirstUniqChar)
+
+[622. 设计循环队列](https://leetcode.cn/problems/design-circular-queue/description/?envType=problem-list-v2&envId=queue) :: [L622_MyCircularQueue](L622_MyCircularQueue)

@@ -18,16 +18,40 @@
 namespace L341 {
     class NestedInteger {
     public:
-        // Return true if this NestedInteger holds a single integer, rather than a nested list.
-        bool isInteger() const;
+        // 默认构造函数，表示一个空的嵌套结构
+        NestedInteger() : is_int(false) {}
 
-        // Return the single integer that this NestedInteger holds, if it holds a single integer
-        // The result is undefined if this NestedInteger holds a nested list
-        int getInteger() const;
+        // 存储单个整数的构造函数
+        NestedInteger(int value) : is_int(true), integer(value) {}
 
-        // Return the nested list that this NestedInteger holds, if it holds a nested list
-        // The result is undefined if this NestedInteger holds a single integer
-        vector<NestedInteger> &getList() const;
+        // 存储嵌套列表的构造函数
+        NestedInteger(std::vector<NestedInteger> list) : is_int(false), nestedList(list) {}
+
+        // 判断当前 NestedInteger 是否是一个整数
+        bool isInteger() const {
+            return is_int;
+        }
+
+        // 如果是整数，返回该整数值
+        int getInteger() const {
+            if (is_int) {
+                return integer;
+            }
+            throw std::runtime_error("This NestedInteger does not hold an integer");
+        }
+
+        // 如果是嵌套列表，返回该列表
+        const std::vector<NestedInteger>& getList() const {
+            if (!is_int) {
+                return nestedList;
+            }
+            throw std::runtime_error("This NestedInteger does not hold a list");
+        }
+
+    private:
+        bool is_int;  // 标记当前对象是否存储一个整数
+        int integer;  // 存储整数的值
+        std::vector<NestedInteger> nestedList;  // 存储嵌套列表
     };
 
     class NestedIterator {

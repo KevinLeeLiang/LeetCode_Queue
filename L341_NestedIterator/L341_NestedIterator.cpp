@@ -13,7 +13,7 @@
 
 #include "L341_NestedIterator.h"
 void L341_NestedIterator::test() {
-    L341::NestedInteger nestedList = {{1,1},2,{1,1}};
+    L341::NestedInteger nestedList = L341::NestedInteger({{1,1},2,{1,1}});
     L341::NestedIterator nestedIterator(nestedList);
 
 }
