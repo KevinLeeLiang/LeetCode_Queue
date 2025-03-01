@@ -20,6 +20,8 @@
 //#include "L341_NestedIterator/L341_NestedIterator.h"
 #include "L387_firstUniqChar/L387_firstUniqChar.h"
 #include "L622_MyCircularQueue/L622_MyCircularQueue.h"
+#include "L641_MyCircularQueue/L641_MyCircularQueue.h"
+#include "L649_predictPartyVictory/L649_predictPartyVictory.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -41,6 +43,14 @@ private:
         } else if (title == "L622") {
             std::shared_ptr<L622_MyCircularQueue> tmp= std::make_shared<L622_MyCircularQueue>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L641") {
+            std::shared_ptr<L641_MyCircularQueue> tmp= std::make_shared<L641_MyCircularQueue>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L649") {
+            std::shared_ptr<L649_predictPartyVictory> tmp= std::make_shared<L649_predictPartyVictory>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

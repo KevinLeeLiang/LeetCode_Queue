@@ -3,4 +3,4 @@ project(Queue)
 
 set(CMAKE_CXX_STANDARD 20)
 include_directories(util)
-add_executable(Queue main.cpp test_factory.h util/util.h L225_MyStack/L225_MyStack.cpp L225_MyStack/L225_MyStack.h L232_MyQueue/L232_MyQueue.cpp L232_MyQueue/L232_MyQueue.h L239_maxSlidingWindow/L239_maxSlidingWindow.cpp L239_maxSlidingWindow/L239_maxSlidingWindow.h L387_firstUniqChar/L387_firstUniqChar.cpp L387_firstUniqChar/L387_firstUniqChar.h L622_MyCircularQueue/L622_MyCircularQueue.cpp L622_MyCircularQueue/L622_MyCircularQueue.h)
+add_executable(Queue main.cpp test_factory.h util/util.h L225_MyStack/L225_MyStack.cpp L225_MyStack/L225_MyStack.h L232_MyQueue/L232_MyQueue.cpp L232_MyQueue/L232_MyQueue.h L239_maxSlidingWindow/L239_maxSlidingWindow.cpp L239_maxSlidingWindow/L239_maxSlidingWindow.h L387_firstUniqChar/L387_firstUniqChar.cpp L387_firstUniqChar/L387_firstUniqChar.h L622_MyCircularQueue/L622_MyCircularQueue.cpp L622_MyCircularQueue/L622_MyCircularQueue.h L641_MyCircularQueue/L641_MyCircularQueue.cpp L641_MyCircularQueue/L641_MyCircularQueue.h L649_predictPartyVictory/L649_predictPartyVictory.cpp L649_predictPartyVictory/L649_predictPartyVictory.h)

@@ -16,4 +16,8 @@ LeetCode队列算法题的解题仓库
 
 [387. 字符串中的第一个唯一字符](https://leetcode.cn/problems/first-unique-character-in-a-string/description/?envType=problem-list-v2&envId=queue) : [L387_FirstUniqChar](L387_FirstUniqChar)
 
-[622. 设计循环队列](https://leetcode.cn/problems/design-circular-queue/description/?envType=problem-list-v2&envId=queue) :: [L622_MyCircularQueue](L622_MyCircularQueue)
+[622. 设计循环队列](https://leetcode.cn/problems/design-circular-queue/description/?envType=problem-list-v2&envId=queue) : [L622_MyCircularQueue](L622_MyCircularQueue)
+
+[641. 设计循环双端队列](https://leetcode.cn/problems/design-circular-deque/description/?envType=problem-list-v2&envId=queue) : [L641_MyCircularDeque](L641_MyCircularDeque)
+
+[649. Dota2 参议院](https://leetcode.cn/problems/dota2-senate/description/?envType=problem-list-v2&envId=queue) : [L649_PredictPartyVictory](L649_PredictPartyVictory)
