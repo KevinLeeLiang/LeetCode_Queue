@@ -22,6 +22,8 @@
 #include "L622_MyCircularQueue/L622_MyCircularQueue.h"
 #include "L641_MyCircularQueue/L641_MyCircularQueue.h"
 #include "L649_predictPartyVictory/L649_predictPartyVictory.h"
+#include "L862_shortestSubarray/L862_shortestSubarray.h"
+#include "L918_maxSubarraySumCircular/L918_maxSubarraySumCircular.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -48,6 +50,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         } else if (title == "L649") {
             std::shared_ptr<L649_predictPartyVictory> tmp= std::make_shared<L649_predictPartyVictory>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L862") {
+            std::shared_ptr<L862_shortestSubarray> tmp= std::make_shared<L862_shortestSubarray>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L918") {
+            std::shared_ptr<L918_maxSubarraySumCircular> tmp= std::make_shared<L918_maxSubarraySumCircular>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         } else {
             cout << "no solution" << endl;

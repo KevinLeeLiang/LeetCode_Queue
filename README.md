@@ -21,3 +21,7 @@ LeetCode队列算法题的解题仓库
 [641. 设计循环双端队列](https://leetcode.cn/problems/design-circular-deque/description/?envType=problem-list-v2&envId=queue) : [L641_MyCircularDeque](L641_MyCircularDeque)
 
 [649. Dota2 参议院](https://leetcode.cn/problems/dota2-senate/description/?envType=problem-list-v2&envId=queue) : [L649_PredictPartyVictory](L649_PredictPartyVictory)
+
+[862. 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/description/?envType=problem-list-v2&envId=queue) : [L862_ShortestSubarray](L862_ShortestSubarray)
+
+[918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/description/?envType=problem-list-v2&envId=queue) : [L918_MaximumSumCircularSubarray](L918_MaximumSumCircularSubarray)
