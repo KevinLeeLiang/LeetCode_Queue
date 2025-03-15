@@ -24,6 +24,9 @@
 #include "L649_predictPartyVictory/L649_predictPartyVictory.h"
 #include "L862_shortestSubarray/L862_shortestSubarray.h"
 #include "L918_maxSubarraySumCircular/L918_maxSubarraySumCircular.h"
+#include "L933_RecentCounter/L933_RecentCounter.h"
+#include "L936_movesToStamp/L936_movesToStamp.h"
+
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -57,8 +60,12 @@ private:
         } else if (title == "L918") {
             std::shared_ptr<L918_maxSubarraySumCircular> tmp= std::make_shared<L918_maxSubarraySumCircular>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L933") {
+            std::shared_ptr<L933_RecentCounter> tmp= std::make_shared<L933_RecentCounter>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L936") {
+            std::shared_ptr<L936_movesToStamp> tmp= std::make_shared<L936_movesToStamp>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         }
     }
 public:

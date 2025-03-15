@@ -25,3 +25,7 @@ LeetCode队列算法题的解题仓库
 [862. 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/description/?envType=problem-list-v2&envId=queue) : [L862_ShortestSubarray](L862_ShortestSubarray)
 
 [918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/description/?envType=problem-list-v2&envId=queue) : [L918_MaximumSumCircularSubarray](L918_MaximumSumCircularSubarray)
+
+[933. 最近的请求次数](https://leetcode.cn/problems/number-of-recent-calls/description/?envType=problem-list-v2&envId=queue) : [L933_RecentCounter](L933_RecentCounter)
+
+[936. 戳印次数](https://leetcode.cn/problems/stamping-the-sequence/description/?envType=problem-list-v2&envId=queue) : [L936_StampingTheSequence](L936_StampingTheSequence)
