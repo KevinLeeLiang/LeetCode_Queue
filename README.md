@@ -29,3 +29,9 @@ LeetCode队列算法题的解题仓库
 [933. 最近的请求次数](https://leetcode.cn/problems/number-of-recent-calls/description/?envType=problem-list-v2&envId=queue) : [L933_RecentCounter](L933_RecentCounter)
 
 [936. 戳印次数](https://leetcode.cn/problems/stamping-the-sequence/description/?envType=problem-list-v2&envId=queue) : [L936_StampingTheSequence](L936_StampingTheSequence)
+
+[959. 按递增顺序显示卡牌](https://leetcode.cn/problems/escape-the-ghosts/description/?envType=problem-list-v2&envId=queue) ： [L950_deckRevealedIncreasing](L950_deckRevealedIncreasing)
+
+[995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-bit-flips/description/?envType=problem-list-v2&envId=queue) : [L995_MinKBitFlips](L995_MinKBitFlips)
+
+

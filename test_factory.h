@@ -26,6 +26,8 @@
 #include "L918_maxSubarraySumCircular/L918_maxSubarraySumCircular.h"
 #include "L933_RecentCounter/L933_RecentCounter.h"
 #include "L936_movesToStamp/L936_movesToStamp.h"
+#include "L950_deckRevealedIncreasing/L950_deckRevealedIncreasing.h"
+#include "L995_minKBitFlips/L995_minKBitFlips.h"
 
 class test_factory {
 private:
@@ -65,6 +67,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         } else if (title == "L936") {
             std::shared_ptr<L936_movesToStamp> tmp= std::make_shared<L936_movesToStamp>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L950") {
+            std::shared_ptr<L950_deckRevealedIncreasing> tmp= std::make_shared<L950_deckRevealedIncreasing>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L995") {
+            std::shared_ptr<L995_minKBitFlips> tmp= std::make_shared<L995_minKBitFlips>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         }
     }
