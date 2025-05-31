@@ -23,20 +23,20 @@ public:
     }
 
     void push(int x) {
-        inStack.push(x);
+        inStack .push(x);
     }
 
     int pop() {
-        if (outStack.empty()) {
+        while (outStack.empty()) {
             in2out();
         }
-        int val = outStack.top();
+        int res = outStack.top();
         outStack.pop();
-        return val;
+        return res;
     }
 
     int peek() {
-        if (outStack.empty()) {
+        while  (outStack.empty()) {
             in2out();
         }
         return outStack.top();
@@ -50,12 +50,11 @@ private:
     stack<int> inStack, outStack;
 
     void in2out() {
-        while (!inStack.empty()) {
+        while  (!inStack.empty()) {
             outStack.push(inStack.top());
             inStack.pop();
         }
     }
-
 };
 class L232_MyQueue : public LeetcodeQueue{
 public:

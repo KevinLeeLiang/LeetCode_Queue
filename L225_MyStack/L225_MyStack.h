@@ -13,6 +13,7 @@
 
 #ifndef QUEUE_L225_MYSTACK_H
 #define QUEUE_L225_MYSTACK_H
+
 #include"util.h"
 
 class MyStack {
@@ -28,32 +29,37 @@ public:
             queue2.push(queue1.front());
             queue1.pop();
         }
-        swap(queue1, queue2);
+        swap( queue1, queue2);
     }
 
     int pop() {
         int r = queue1.front();
         queue1.pop();
-        return r;
+        return  r;
     }
 
     int top() {
         int r = queue1.front();
-        return r;
+        return  r;
     }
 
     bool empty() {
-        return queue1.empty();
+        if (queue1.empty()) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 private:
-    queue<int>queue1;
-    queue<int>queue2;
+    queue<int> queue1;
+    queue<int> queue2;
 };
 
 class L225_MyStack : public LeetcodeQueue {
 public:
-    L225_MyStack(){}
+    L225_MyStack() {}
+
     void test();
 
 private:
