@@ -14,8 +14,8 @@
 #include "L387_firstUniqChar.h"
 
 int L387_firstUniqChar::firstUniqChar(string s) {
-    unordered_map<char, int> map;
-    queue<int> q;
+    unordered_map<char, int>map;
+    queue<int>q;
     for (int i = 0; i < s.size(); i++) {
         if (map.find(s[i]) == map.end()) {
             map[s[i]] = i;
