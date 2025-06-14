@@ -18,11 +18,11 @@ using namespace L641;
 MyCircularQueue::MyCircularQueue(int k) {
     capacity = k + 1;
     front = rear = 0;
-    elements = vector<int>(k + 1);
+    elements = vector<int>(capacity);
 }
 
 bool MyCircularQueue::insertFront(int value) {
-    if (isFull()) {
+    if (isFull()){
         return false;
     } else {
         front = (front - 1 + capacity) % capacity;
@@ -32,9 +32,9 @@ bool MyCircularQueue::insertFront(int value) {
 }
 
 bool MyCircularQueue::insertLast(int value) {
-    if (isFull()) {
+    if (isFull())
         return false;
-    } else {
+    else {
         elements[rear] = value;
         rear = (rear + 1) % capacity;
         return true;
@@ -44,39 +44,32 @@ bool MyCircularQueue::insertLast(int value) {
 bool MyCircularQueue::deleteFront() {
     if (isEmpty()) {
         return false;
-    } else {
-        front = (front + 1) % capacity;
-        return true;
     }
+    front = (front + 1) % capacity;
+    return true;
 }
 
 bool MyCircularQueue::deleteLast() {
-    if (isEmpty()) {
+    if (isEmpty())
         return false;
-    } else {
-        rear = (rear - 1 + capacity) % capacity;
-        return true;
-    }
+    rear = (rear - 1 + capacity) % capacity;
+    return true;
 }
 
 int MyCircularQueue::getFront() {
-    if (isEmpty()) {
+    if (isEmpty())
         return -1;
-    } else {
-        return elements[front];
-    }
+    return elements[front];
 }
 
 int MyCircularQueue::getRear() {
-    if (isEmpty()) {
+    if (isEmpty())
         return -1;
-    } else {
-        return elements[(rear - 1 + capacity) % capacity];
-    }
+    return elements[rear - 1 + capacity % capacity];
 }
 
 bool MyCircularQueue::isEmpty() {
-    return front == rear;
+    return rear == front;
 }
 
 bool MyCircularQueue::isFull() {
@@ -85,13 +78,13 @@ bool MyCircularQueue::isFull() {
 
 void L641_MyCircularQueue::test() {
     MyCircularQueue mycircular_queue(3);
-    mycircular_queue.insertLast(1);
-    mycircular_queue.insertLast(2);
-    mycircular_queue.insertFront(3);
-    mycircular_queue.insertFront(4);
+    cout << mycircular_queue.insertLast(1) << endl;
+    cout << mycircular_queue.insertLast(2) << endl;
+    cout << mycircular_queue.insertFront(3) << endl;
+    cout << mycircular_queue.insertFront(4) << endl;
     cout << mycircular_queue.getRear() << endl;
     cout << mycircular_queue.isFull() << endl;
     cout << mycircular_queue.deleteLast() << endl;
-    mycircular_queue.insertFront(4);
+    cout << mycircular_queue.insertFront(4)  << endl;
     cout << mycircular_queue.getFront() << endl;
 }
