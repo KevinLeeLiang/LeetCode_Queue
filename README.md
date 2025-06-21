@@ -34,4 +34,6 @@ LeetCode队列算法题的解题仓库
 
 [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-bit-flips/description/?envType=problem-list-v2&envId=queue) : [L995_MinKBitFlips](L995_MinKBitFlips)
 
+[1425. 带限制的子序列和](https://leetcode.cn/problems/constrained-subsequence-sum/description/?envType=problem-list-v2&envId=queue) : [L1425_constrainedSubsetSum](L1425_constrainedSubsetSum)
 
+[1438. 绝对差不超过限制的最长连续子数组](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/?envType=problem-list-v2&envId=queue) : [L1438_longestSubarray](L1438_longestSubarray)
