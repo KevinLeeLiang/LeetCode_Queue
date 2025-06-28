@@ -30,6 +30,8 @@
 #include "L995_minKBitFlips/L995_minKBitFlips.h"
 #include "L1425_constrainedSubsetSum/L1425_constrainedSubsetSum.h"
 #include "L1438_longestSubarray/L1438_longestSubarray.h"
+#include "L1499_findMaxValueOfEquation/L1499_findMaxValueOfEquation.h"
+#include "L1670_FrontMiddleBackQueue/L1670_FrontMiddleBackQueue.h"
 
 class test_factory {
 private:
@@ -81,6 +83,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         } else if (title == "L1438") {
             std::shared_ptr<L1438_longestSubarray> tmp= std::make_shared<L1438_longestSubarray>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L1499") {
+            std::shared_ptr<L1499_findMaxValueOfEquation> tmp= std::make_shared<L1499_findMaxValueOfEquation>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L1670") {
+            std::shared_ptr<L1670_FrontMiddleBackQueue> tmp= std::make_shared<L1670_FrontMiddleBackQueue>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         }
     }
