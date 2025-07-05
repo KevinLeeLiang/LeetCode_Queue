@@ -41,3 +41,7 @@ LeetCode队列算法题的解题仓库
 [1499. 满足不等式的最大值](https://leetcode.cn/problems/max-value-of-equation/description/?envType=problem-list-v2&envId=queue) : [L1499_findMaxValueOfEquation](L1499_findMaxValueOfEquation)
 
 [1670. 设计前中后队列](https://leetcode.cn/problems/design-front-middle-back-queue/description/?envType=problem-list-v2&envId=queue) : [L1670_FrontMiddleBackQueue](L1670_FrontMiddleBackQueue)
+
+[1687. 从仓库到码头运输箱子](https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports/description/?envType=problem-list-v2&envId=queue) : [L1687_DeliveringBoxesFromStorageToPorts](L1687_DeliveringBoxesFromStorageToPorts)
+
+[1696. 跳跃游戏 VI](https://leetcode.cn/problems/jump-game-vi/description/?envType=problem-list-v2&envId=queue) : [L1696_maxResult](L1696_maxResult)
