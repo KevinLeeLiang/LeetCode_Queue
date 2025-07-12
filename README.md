@@ -45,3 +45,5 @@ LeetCode队列算法题的解题仓库
 [1687. 从仓库到码头运输箱子](https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports/description/?envType=problem-list-v2&envId=queue) : [L1687_DeliveringBoxesFromStorageToPorts](L1687_DeliveringBoxesFromStorageToPorts)
 
 [1696. 跳跃游戏 VI](https://leetcode.cn/problems/jump-game-vi/description/?envType=problem-list-v2&envId=queue) : [L1696_maxResult](L1696_maxResult)
+
+[1700. 无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/description/?envType=problem-list-v2&envId=queue) : [L1700_countStudents](L1700_countStudents)

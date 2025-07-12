@@ -34,6 +34,7 @@
 #include "L1670_FrontMiddleBackQueue/L1670_FrontMiddleBackQueue.h"
 #include "L1687_boxDelivering/L1687_boxDelivering.h"
 #include "L1696_maxResult/L1696_maxResult.h"
+#include "L1700_countStudents/L1700_countStudents.h"
 
 class test_factory {
 private:
@@ -97,6 +98,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         } else if (title == "L1696") {
             std::shared_ptr<L1696_maxResult> tmp= std::make_shared<L1696_maxResult>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L1700") {
+            std::shared_ptr<L1700_countStudents> tmp= std::make_shared<L1700_countStudents>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         }
     }
