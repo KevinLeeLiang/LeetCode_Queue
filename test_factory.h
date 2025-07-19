@@ -35,6 +35,7 @@
 #include "L1687_boxDelivering/L1687_boxDelivering.h"
 #include "L1696_maxResult/L1696_maxResult.h"
 #include "L1700_countStudents/L1700_countStudents.h"
+#include "L1823_findTheWinner/L1823_findTheWinner.h"
 
 class test_factory {
 private:
@@ -101,6 +102,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         } else if (title == "L1700") {
             std::shared_ptr<L1700_countStudents> tmp= std::make_shared<L1700_countStudents>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L1823") {
+            std::shared_ptr<L1823_findTheWinner> tmp= std::make_shared<L1823_findTheWinner>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         }
     }
