@@ -36,6 +36,7 @@
 #include "L1696_maxResult/L1696_maxResult.h"
 #include "L1700_countStudents/L1700_countStudents.h"
 #include "L1823_findTheWinner/L1823_findTheWinner.h"
+#include "L1825_MKAverage/L1825_MKAverage.h"
 
 class test_factory {
 private:
@@ -105,6 +106,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         } else if (title == "L1823") {
             std::shared_ptr<L1823_findTheWinner> tmp= std::make_shared<L1823_findTheWinner>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
+        } else if (title == "L1825") {
+            std::shared_ptr<L1825_MKAverage> tmp= std::make_shared<L1825_MKAverage>();
             solution_ = std::dynamic_pointer_cast<LeetcodeQueue>(tmp);
         }
     }

@@ -49,3 +49,5 @@ LeetCode队列算法题的解题仓库
 [1700. 无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/description/?envType=problem-list-v2&envId=queue) : [L1700_countStudents](L1700_countStudents)
 
 [1823. 找出游戏的获胜者](https://leetcode.cn/problems/find-the-winner-of-the-circular-game/description/?envType=problem-list-v2&envId=queue) : [L1823_findWinner](L1823_findWinner)
+
+[1825. 求出MK平均值](https://leetcode.cn/problems/finding-mk-average/description/?envType=problem-list-v2&envId=queue) : [L1825_MKAverage](L1825_MKAverage)
